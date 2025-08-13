@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# ignore the starter folder
+rest-countries-api-with-color-theme-switcher-master
+rest-countries-api-with-color-theme-switcher-master/*
