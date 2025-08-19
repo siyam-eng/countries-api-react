@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<App />} />
-          <Route path="/:countryCode" element={<CountryDetail />} />
+          <Route path=":countryCode" element={<CountryDetail />} />
         </Route>
       </Routes>
     </BrowserRouter>
