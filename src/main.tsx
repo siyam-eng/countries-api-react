@@ -8,7 +8,7 @@ import CountryDetail from "./CountryDetail.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/countries-api-react">
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<App />} />
